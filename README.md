@@ -9,6 +9,7 @@
 * 添加基于keras网络训练的模型，和基于TensorFlow模型的调用。
 
 > 添加自己的模型将其放在`libact/models/`下。读取keras和TensorFlow的已训练模型，用于查询最不确定样本。对添加模型的测试文件分别为：`test_keras_model.py`,`test_TF_model.py`。
+
 > 如需自己添加模型，可以仿照`models/mymodel_keras.py`，`models/mymodel_TF.py`进行修改。
 
 * 复现论文[Cost-Effective Active Learning (CEAL) for Deep Image Classification Implementation with keras](https://arxiv.org/pdf/1701.03551).
