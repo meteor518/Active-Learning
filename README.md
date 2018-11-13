@@ -13,6 +13,6 @@
 > 如需自己添加模型，可以仿照`models/mymodel_keras.py`，`models/mymodel_TF.py`进行修改。
 
 * 复现论文[Cost-Effective Active Learning (CEAL) for Deep Image Classification Implementation with keras](https://arxiv.org/pdf/1701.03551).
- * 目前是单独实现，代码见：`CEAL_keras.py`。后续有时间将其整合到libact库中。
+ > 目前是单独实现，代码见：`CEAL_keras.py`。后续有时间将其整合到libact库中。
  
 * 其他实现Active Learning的库有[modAL](https://modal-python.readthedocs.io/en/latest/),有详细的官方文档，本人尝试也还不错，有兴趣的可以自行了解。
